@@ -28,11 +28,11 @@
       "maxLength": 255,
       "required": false
     },
-    "vendas": {
+    "Vendas": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::venda.venda",
-      "mappedBy": "produtos"
+      "mappedBy": "Produtos"
     }
   }
 }

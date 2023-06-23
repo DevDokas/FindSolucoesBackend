@@ -12,20 +12,21 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "cliente": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::cliente.cliente"
-    },
-    "produtos": {
+    "Produtos": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::produto.produto",
-      "inversedBy": "vendas"
+      "inversedBy": "Vendas"
     },
-    "sales": {
+    "dateandtime": {
       "type": "datetime",
       "required": true
+    },
+    "Cliente": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::cliente.cliente",
+      "inversedBy": "Vendas"
     }
   }
 }

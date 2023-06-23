@@ -1,57 +1,29 @@
-# 🚀 Getting started with Strapi
+# README
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
+Você pode acessar a URL da API clicando [aqui](https://fsbackend.igordokai.com.br).  (Previsão para estar Online: 25/06/2023)
 
-### `develop`
+### `Sobre o desenvolvimento da aplicação`
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
+  A Aplicação foi desenvolvida utilizando o Strapi, framework de JavaScript voltado em ser de fácil utilização, porém conseguindo entregar um Backend completo e de qualidade para a aplicação requisitada.
+  <br>
+  <h2>Vantagens do Framework:</h2>
+  <ul>
+    <li>
+          Facil utilização, como mensionado acima, sem perder em qualidade.
+    </li>
+    <li>
+          Permite uma estruturação de dados facil, utilizando do MySQL para fazer o armazenamento das informações.
+    </li>
+    <li>
+          Estrutura de rotas de requisição nos métodos GET/POST/PUT/DELETE consistente e que dificilmente gera bugs.
+    </li>
+    <li>
+          Apesar de possuir uma interface gráfica para auxilio no desenvolvimento, como o Cypress, consegue possuir um peso de arquivo bruto não muito acima dos demais frameworks.
+    </li>
+    <li>
+          Performático, sendo escolhido por empresas como Walmart, Swisscom e Accenture, como pode conferir clicando <a href='https://6sense.com/tech/api-first-cms/strapi-market-share'>aqui</a>
+  </ul>
 
-```
-npm run develop
-# or
-yarn develop
-```
-
-### `start`
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
-
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+### Links úteis:
+[Site do Framework](https://strapi.io/) - Strapi. <br>
+[Documentação Strapi](https://docs.strapi.io) - Documentação oficial do Framework.

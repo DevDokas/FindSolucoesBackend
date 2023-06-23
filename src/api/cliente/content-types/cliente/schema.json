@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clientes",
+  "info": {
+    "singularName": "cliente",
+    "pluralName": "clientes",
+    "displayName": "Clientes",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "email": {
+      "type": "string",
+      "required": true,
+      "maxLength": 200
+    },
+    "cellphone": {
+      "type": "string",
+      "required": false,
+      "maxLength": 20
+    }
+  }
+}

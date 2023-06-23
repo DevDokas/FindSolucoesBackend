@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "produtos",
+  "info": {
+    "singularName": "produto",
+    "pluralName": "produtos",
+    "displayName": "Produtos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "maxLength": 80,
+      "required": true,
+      "unique": true
+    },
+    "price": {
+      "type": "decimal",
+      "default": 0,
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 255,
+      "required": false
+    },
+    "vendas": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::venda.venda",
+      "mappedBy": "produtos"
+    }
+  }
+}

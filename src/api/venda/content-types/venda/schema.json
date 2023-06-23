@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vendas",
+  "info": {
+    "singularName": "venda",
+    "pluralName": "vendas",
+    "displayName": "Vendas",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cliente": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cliente.cliente"
+    },
+    "produtos": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::produto.produto",
+      "inversedBy": "vendas"
+    },
+    "sales": {
+      "type": "datetime",
+      "required": true
+    }
+  }
+}

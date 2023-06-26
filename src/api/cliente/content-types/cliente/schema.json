@@ -27,11 +27,11 @@
       "required": false,
       "maxLength": 20
     },
-    "Vendas": {
+    "sale": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::venda.venda",
-      "mappedBy": "Cliente"
+      "mappedBy": "client"
     }
   }
 }

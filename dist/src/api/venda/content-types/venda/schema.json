@@ -12,25 +12,23 @@
     },
     "pluginOptions": {},
     "attributes": {
-        "Produtos": {
+        "products": {
             "type": "relation",
-            "relation": "manyToMany",
-            "target": "api::produto.produto",
-            "inversedBy": "Vendas"
+            "relation": "oneToMany",
+            "target": "api::produto.produto"
         },
         "dateandtime": {
             "type": "datetime",
             "required": true
         },
-        "Cliente": {
+        "client": {
             "type": "relation",
             "relation": "manyToOne",
             "target": "api::cliente.cliente",
-            "inversedBy": "Vendas"
+            "inversedBy": "sale"
         },
-        "saleprice": {
-            "type": "decimal",
-            "required": true
+        "numberofproducts": {
+            "type": "json"
         }
     }
 }

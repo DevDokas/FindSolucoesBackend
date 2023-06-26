@@ -27,12 +27,6 @@
       "type": "text",
       "maxLength": 255,
       "required": false
-    },
-    "Vendas": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::venda.venda",
-      "mappedBy": "Produtos"
     }
   }
 }

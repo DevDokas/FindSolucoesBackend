@@ -27,6 +27,10 @@
       "relation": "manyToOne",
       "target": "api::cliente.cliente",
       "inversedBy": "Vendas"
+    },
+    "saleprice": {
+      "type": "decimal",
+      "required": true
     }
   }
 }
